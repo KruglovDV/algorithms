@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "algorithms"
+version = "0.1.0"
+description = ""
+authors = ["Dmitry Kruglov <kruglov081289@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^6.0.0"
+pytest = "^7.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
